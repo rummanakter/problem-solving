@@ -67,12 +67,57 @@
 
 //06-calculate 10!
 
-var prod=1;
+// var prod=1;
 
-for(var i=1; i<=10; i++){
-    prod*=i;
+// for(var i=1; i<=10; i++){
+//     prod*=i;
+// }
+// console.log(prod);
+
+
+
+
+
+
+
+//07-calculate the sum of odd numbers greater than 10 and less than 30
+
+// var sum=0;
+
+// for(var i=11; i<=30; i+=2){
+//     sum += i;
+// }
+
+// console.log(sum);
+
+
+
+
+
+
+
+
+//08-create a function that will convert from celsius to fahrenheit
+
+function celsiusTofahrenheit(n){
+    return n*1.8+32;
 }
-console.log(prod);
+
+var r = celsiusTofahrenheit(20);
+
+console.log(r);
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
