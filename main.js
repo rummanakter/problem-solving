@@ -99,13 +99,59 @@
 
 //08-create a function that will convert from celsius to fahrenheit
 
-function celsiusTofahrenheit(n){
-    return n*1.8+32;
-}
+// function celsiusTofahrenheit(n){
+//     return n*1.8+32;
+// }
 
-var r = celsiusTofahrenheit(20);
+// var r = celsiusTofahrenheit(20);
 
-console.log(r);
+// console.log(r);
+
+
+
+
+
+
+
+
+//09-create a function that will convert from Fahrenheit to Celsius
+
+// function fahrenheitToCelsius(n){
+//     return(n-32)/1.8;
+// }
+
+// var r=fahrenheitToCelsius(68);
+
+// console.log(r);
+
+
+
+
+
+
+
+//10-calculate the sum of numbers in an array of numbers
+
+// function sumArray(ar){
+
+//     var sum=0;
+
+//     for(var i=0;i<ar.length;i++){
+//         sum+=ar[i];
+//     }
+
+//     return sum;
+// }
+
+// var ar=[2,3,-1,5,7,9,10,15,95];
+// var sum=sumArray(ar);
+
+// console.log(sum);
+
+
+
+
+
 
 
 
